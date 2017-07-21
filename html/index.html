@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app='myModule'>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="navBar">
+      <a href="#!/input.html">Write!</a>
+      <a href="#!/output.html">Read!</a>
+    </div>
+
+    <div class="view">
+      <ng-view></ng-view>
+    </div>
+
+    <script data-require="angular.js@*" data-semver="1.6.4" src="https://code.angularjs.org/1.6.4/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.6.4" src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
+    <script src="js/module.js"></script>
+    <script src="js/input-controller.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/service.js"></script>
+    <script src="js/output-controller.js"></script>
+  </body>
+
+</html>

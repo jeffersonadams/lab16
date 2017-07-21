@@ -1,0 +1,13 @@
+.colorRotate {
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+    0%   {color:purple;}
+    20%  {color:blue;}
+    40%  {color:green;}
+    60%  {color:yellow;}
+    80% {color:orange;}
+    100% {color:red;}
+}
